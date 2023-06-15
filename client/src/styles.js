@@ -1,6 +1,6 @@
 import { makeStyles } from "@mui/styles";
 
-const useStyles = makeStyles((theme) => ({
+export default makeStyles(() => ({
   appBar: {
     borderRadius: 15,
     margin: "30px 0",
@@ -16,5 +16,3 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: "15px",
   },
 }));
-
-export default useStyles;
