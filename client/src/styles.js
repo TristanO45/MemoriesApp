@@ -1,18 +1,21 @@
 import { makeStyles } from "@mui/styles";
 
-export default makeStyles(() => ({
+const useStyles = makeStyles((theme) => ({
   appBar: {
     borderRadius: 15,
     margin: "30px 0",
     display: "flex",
-    flexDirection: "row",
+    flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
   },
   heading: {
-    color: "rgba(0,183,255, 1)",
+    color: "rgba(130, 208, 245)",
   },
   image: {
     marginLeft: "15px",
   },
+
 }));
+
+export default useStyles;
